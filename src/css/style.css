@@ -1,30 +1,9 @@
-body {
+* {
   margin: 0;
-  box-sizing: content-box;
-  background-color: #00171F;
+  padding: 0;
+  box-sizing: border-box;
 }
-.encabezado-imagenes {
-  background-color: #003459;
-  height: 250px;
-  align-items: center;
-  display: grid;
-}
-.encabezado-imagenes {
-  position: relative;
-}
-
-.encabezado-imagenes::before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  filter: blur(5px);
-}
-
-.encabezado-nombre {
-  width: 60%;
-  height: 100px;
-  margin: 0px 20% 0px 20%;
+contenedor {
+  width: 100%;
   text-align: center;
-  background-color: rgba(0, 255, 255, 0.493);
-  border-radius: 30px;
 }
