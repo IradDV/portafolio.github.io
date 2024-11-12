@@ -8,16 +8,17 @@
     <link rel="stylesheet" href="src/css/style.css">
     <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
     <script src="https://www.paypal.com/sdk/js?client-id=YOUR_CLIENT_ID&currency=USD"></script>
-    <title>SmartFit</title>
+    <title>Impulso GYM</title> 
+    <link rel="shortcut icon" href="src/img/img-icon.png" type="image/x-icon">
     <style>
       
     </style>
   </head>
-  <body class="bg-black"> 
+  <body class="bg-slate-950 text-slate-300"> 
     <div>
-      <nav class="flex items-center align-middle bg-slate-900 p-6">
+      <nav class="flex items-center align-middle bg-slate-950 p-6">
         <span>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfVNTwVxQL_f0aUK_zN4eVvcEKO7xj-hQcog&s" alt="logo" class="h-16 w-16 rounded-full">
+          <img src="/src/img/img-icon.png" alt="logo" class="bg-cover"> 
         </span>
         <ul class="text-slate-400 flex flex-row-reverse md:flex-none w-11/12">
           <li class="ml-6">
@@ -35,26 +36,26 @@
       </nav>
     </div>
     <div class="headimagen">
-      <div class="texto-img bg-black bg-opacity-50 p-8 rounded">
+      <div class="texto-img  p-8 rounded">
         <h1 class="text-4xl font-bold text-center text-white">
-          SmartFit
+          IMPULSO
         </h1>
         <h2 class="text-2xl font-bold text-center text-white">
-          Nuestro Portafolio
+          GYM
         </h2>
       </div>
     </div>
     <div id="about">
       <div class="my-10 flex flex-col justify-center items-center">
         <h1 class="Leyenda text-white text-center mb-4">
-          " El que Despierta, Es porque ya no duerme "
+          " Leyenda "
         </h1>
       </div>
     </div>
     <div id="plans" class="container mx-auto my-10">
-      <h2 class="text-3xl font-bold text-center mb-8">Nuestros Planes Mensuales</h2>
+      <h2 class="text-3xl font-bold text-center mb-8 text-white">Nuestros Planes Mensuales</h2>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div class="bg-white p-6 rounded-lg shadow-md">
+        <div class="bg-slate-800 p-6 rounded-lg shadow-md">
           <h3 class="text-xl font-bold mb-4">Plan Básico</h3>
           <p class="text-3xl font-bold mb-4">$29.99<span class="text-sm font-normal">/mes</span></p>
           <ul class="mb-6">
@@ -62,9 +63,9 @@
             <li>✓ Clases grupales básicas</li>
             <li>✓ Horario limitado</li>
           </ul>
-          <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 w-full" onclick="selectPlan('Básico', 29.99)">Seleccionar</button>
+          <button class="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-600 w-full" onclick="selectPlan('Básico', 29.99)">Seleccionar</button>
         </div>
-        <div class="bg-white p-6 rounded-lg shadow-md">
+        <div class="bg-slate-800 p-6 rounded-lg shadow-md">
           <h3 class="text-xl font-bold mb-4">Plan Estándar</h3>
           <p class="text-3xl font-bold mb-4">$49.99<span class="text-sm font-normal">/mes</span></p>
           <ul class="mb-6">
@@ -72,9 +73,9 @@
             <li>✓ Todas las clases grupales</li>
             <li>✓ Horario extendido</li>
           </ul>
-          <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 w-full" onclick="selectPlan('Estándar', 49.99)">Seleccionar</button>
+          <button class="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-600 w-full" onclick="selectPlan('Estándar', 49.99)">Seleccionar</button>
         </div>
-        <div class="bg-white p-6 rounded-lg shadow-md">
+        <div class="bg-slate-800 p-6 rounded-lg shadow-md">
           <h3 class="text-xl font-bold mb-4">Plan Premium</h3>
           <p class="text-3xl font-bold mb-4">$79.99<span class="text-sm font-normal">/mes</span></p>
           <ul class="mb-6">
@@ -82,11 +83,11 @@
             <li>✓ Entrenador personal</li>
             <li>✓ Acceso a spa y sauna</li>
           </ul>
-          <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 w-full" onclick="selectPlan('Premium', 79.99)">Seleccionar</button>
+          <button class="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-600 w-full" onclick="selectPlan('Premium', 79.99)">Seleccionar</button>
         </div>
       </div>
     </div>
-    <div id="payment" class="container mx-auto my-10 bg-white p-8 rounded-lg shadow-md">
+    <div id="payment" class="container mx-auto w-72 my-10 bg-white text-black p-8 rounded-lg shadow-md">
       <h2 class="text-3xl font-bold text-center mb-8">Pagar en línea</h2>
       <div id="paypal-button-container">Paypal</div>
       <form id="paymentForm" class="max-w-md mx-auto">
@@ -150,8 +151,8 @@
             </ul>
           </div>
           <div>
-            <p>&copy; 2023 SmartFit. Todos los derechos reservados.</p>
-          </div>
+            <p>&copy; 2023 Impulso GYM. Todos los derechos reservados.</p>
+          </div> 
         </div>
       </div>
     </div>
